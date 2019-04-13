@@ -17,14 +17,11 @@ export default class AlbumLists extends Component {
   }
 
   renderAlbum = () => {
-    console.log(this.state.album, "this is the render from the AlbumList");
     return this.state.album.map(alb => (
       <AlbumDetails key={alb.title} album={alb} />
     ));
   };
   render() {
-    console.log(this.state);
-
     return <ScrollView>{this.renderAlbum()}</ScrollView>;
   }
 }
