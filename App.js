@@ -6,7 +6,7 @@ import AlbumLists from "./src/components/AlbumLists";
 export default class App extends Component {
   render() {
     return (
-      <View>
+      <View style={{ flex: 1 }}>
         <Header heading="Sharique's Album Collections" />
         <AlbumLists />
       </View>

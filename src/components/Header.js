@@ -14,7 +14,6 @@ export default class Header extends Component {
 
 const styles = StyleSheet.create({
   myView: {
-    marginTop: "15%",
     backgroundColor: "#F8F8F8",
     justifyContent: "flex-start",
     alignItems: "center",
